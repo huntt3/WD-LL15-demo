@@ -12,7 +12,16 @@
   <div class="container">
     <h1>🧊 Fillr</h1>
     <p>Your Icebreaker &amp; Conversation Starter</p>
-    <!-- Icebreaker buttons -->
+    <!-- Context dropdown and Icebreaker buttons -->
+    <div id="context-select" style="margin-bottom: 1em;">
+      <label for="contextDropdown"><strong>Choose a context:</strong></label>
+      <select id="contextDropdown">
+        <option value="general">General</option>
+        <option value="team">Team Meeting</option>
+        <option value="classroom">Classroom</option>
+        <option value="game">Game Night</option>
+      </select>
+    </div>
     <div id="icebreaker-buttons">
       <button type="button" id="iceBtn">
         <i class="fa-regular fa-comments"></i> Icebreaker

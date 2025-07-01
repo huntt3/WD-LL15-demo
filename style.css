@@ -1,3 +1,33 @@
+/* Style for the context dropdown and label to match the app's look */
+#context-select {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+#context-select label {
+  color: #222;
+  font-weight: 600;
+  margin-right: 0.5em;
+}
+
+#contextDropdown {
+  padding: 0.4em 1em;
+  border-radius: 8px;
+  border: 1px solid #b3b3b3;
+  background: #f7faff;
+  font-size: 1em;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #222;
+  transition: border 0.2s;
+}
+#contextDropdown:focus {
+  border: 1.5px solid #4f8cff;
+  outline: none;
+}
 * {
   box-sizing: border-box;
 }
